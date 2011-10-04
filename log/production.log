@@ -1,0 +1,792 @@
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-20 09:00:53 -0700
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (73.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (1.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (146.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/welcome.html.erb within layouts/login (3663.4ms)
+Completed 200 OK in 4071ms (Views: 3761.2ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/users/register" for 127.0.0.1 at 2011-07-20 09:01:04 -0700
+  Processing by UsersController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (1.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (5.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (1.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-authentication-1.0.3/app/views/users/new.html.erb within layouts/login (68.0ms)
+Completed 200 OK in 143ms (Views: 117.1ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-07-20 09:01:11 -0700
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "user"=>{"username"=>"n5ken", "email"=>"n5ken@qq.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plugins"=>["refinery_dashboard", "refinery_files", "refinery_images", "refinery_pages", "refinery_settings", "refinery_users"]}, "locale"=>:en}
+Redirected to http://localhost:3000/refinery
+Completed 302 Found in 544ms
+
+
+Started GET "/refinery" for 127.0.0.1 at 2011-07-20 09:01:11 -0700
+  Processing by Admin::DashboardController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_recent_activity.html.erb (64.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_records.html.erb (75.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_additional_dashboard_menu_items.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_actions.html.erb (24.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (5.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (59.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (43.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/index.html.erb within layouts/admin (267.4ms)
+Completed 200 OK in 492ms (Views: 298.1ms | ActiveRecord: 21.5ms)
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:17 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (21.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (30.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (60.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (96.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (1.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (17.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (5.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (4.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (227.1ms)
+Completed 200 OK in 268ms (Views: 242.7ms | ActiveRecord: 13.5ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:01:20 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (1.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (14.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (56.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (3.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (11.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (38.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (19.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (155.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (4.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (183.6ms)
+Completed 200 OK in 296ms (Views: 193.3ms | ActiveRecord: 10.3ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:28 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"22222", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>22222</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"1", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 105ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:28 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (49.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (72.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (85.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (88.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (3.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (104.0ms)
+Completed 200 OK in 125ms (Views: 97.4ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:01:30 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (2.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (2.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (6.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (21.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (32.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (3.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (4.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (47.5ms)
+Completed 200 OK in 73ms (Views: 50.6ms | ActiveRecord: 29.9ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:44 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"222x3333", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>23</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"4", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 104ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:44 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (17.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (63.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (79.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (87.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (95.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (2.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (109.7ms)
+Completed 200 OK in 130ms (Views: 102.5ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:01:48 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (2.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (2.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (27.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (36.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (3.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (45.9ms)
+Completed 200 OK in 73ms (Views: 43.4ms | ActiveRecord: 7.9ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:58 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"22222x444", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>2424242424</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"5", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 190ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:01:58 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (12.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (22.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (58.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (66.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (93.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (96.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (6.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (4.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (116.7ms)
+Completed 200 OK in 139ms (Views: 94.0ms | ActiveRecord: 36.4ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:02:00 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (3.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (1.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (29.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (1.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (40.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (3.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (52.3ms)
+Completed 200 OK in 86ms (Views: 49.0ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:02:11 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"3333", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>33333</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"1", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 217ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:02:11 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (10.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (20.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (59.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (66.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (4.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (95.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (102.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (5.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (1.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (11.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (1.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (129.3ms)
+Completed 200 OK in 154ms (Views: 109.6ms | ActiveRecord: 34.2ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:02:13 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (4.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (1.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (54.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (3.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (68.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (6.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (3.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (82.2ms)
+Completed 200 OK in 105ms (Views: 71.2ms | ActiveRecord: 33.0ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:02:21 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"4444", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>444444</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"1", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 116ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:02:22 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (104.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (116.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (163.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (177.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (207.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (210.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (2.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (222.9ms)
+Completed 200 OK in 241ms (Views: 209.7ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:02:42 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (6.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (3.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (3.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (31.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (3.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (46.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (1.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (6.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (4.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (65.3ms)
+Completed 200 OK in 86ms (Views: 61.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 192.168.1.102 at 2011-07-20 09:02:45 -0700
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (112.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/home.html.erb within layouts/application (231.1ms)
+Completed 200 OK in 280ms (Views: 242.0ms | ActiveRecord: 10.8ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:02:52 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"3333x33333", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>33333333</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"7", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 104ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:02:52 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (10.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (23.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (16.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (91.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (97.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (125.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (132.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (5.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (149.6ms)
+Completed 200 OK in 168ms (Views: 138.1ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:03:01 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (17.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (19.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (3.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (42.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (68.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (1.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (2.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (3.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (83.2ms)
+Completed 200 OK in 105ms (Views: 78.7ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/refinery" for 192.168.1.102 at 2011-07-20 09:03:20 -0700
+  Processing by Admin::DashboardController#index as HTML
+  Parameters: {"locale"=>:en}
+Completed   in 4ms
+
+
+Started GET "/users/login" for 192.168.1.102 at 2011-07-20 09:03:25 -0700
+  Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (5.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (8.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (4.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-authentication-1.0.3/app/views/sessions/new.html.erb within layouts/login (31.9ms)
+Completed 200 OK in 167ms (Views: 60.1ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:03:30 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"about2222", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>222222</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"3", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 126ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:03:30 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (14.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (28.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (12.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (88.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (11.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (107.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (129.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (135.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (2.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (4.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (149.3ms)
+Completed 200 OK in 176ms (Views: 133.1ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/refinery/pages/new" for 127.0.0.1 at 2011-07-20 09:03:35 -0700
+  Processing by Admin::PagesController#new as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_error_messages.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_locale_picker.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_fields_after_title.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page_part_field.html.erb (0.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_page_parts.html.erb (9.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/seo_meta-1.1.1/app/views/seo_meta/_form.html.erb (3.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options_seo.html.erb (4.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form_advanced_options.html.erb (45.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_continue_editing.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_form_actions.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_form.html.erb (60.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (5.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/new.html.erb within layouts/admin (73.3ms)
+Completed 200 OK in 96ms (Views: 66.9ms | ActiveRecord: 8.7ms)
+
+
+Started POST "/users/login" for 192.168.1.102 at 2011-07-20 09:03:47 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fre8IHG8qovOQ6at5cArKlOXLR0Eo4xSoaSbHMcqw/A=", "user"=>{"login"=>"n5ken", "password"=>"[FILTERED]", "remember_me"=>"1"}, "locale"=>:en}
+Redirected to http://192.168.1.104:3000/refinery
+Completed 302 Found in 190ms
+
+
+Started GET "/refinery" for 192.168.1.102 at 2011-07-20 09:03:53 -0700
+  Processing by Admin::DashboardController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_recent_activity.html.erb (95.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_records.html.erb (95.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_additional_dashboard_menu_items.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/_actions.html.erb (9.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (2.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-dashboard-1.0.3/app/views/admin/dashboard/index.html.erb within layouts/admin (114.7ms)
+Completed 200 OK in 127ms (Views: 109.8ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:03:59 -0700
+  Processing by Admin::PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eQ58s3LcLXEfjDjmqHD+6QjxhaVO4OTENlwrYZMWpUc=", "switch_locale"=>"en", "page"=>{"title"=>"about2223333", "parts_attributes"=>{"0"=>{"title"=>"Body", "body"=>"<p>3333</p>\r\n<br />", "position"=>"0"}, "1"=>{"title"=>"Side Body", "body"=>"", "position"=>"1"}}, "draft"=>"0", "parent_id"=>"10", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "locale"=>:en}
+Redirected to http://localhost:3000/refinery/pages
+Completed 302 Found in 126ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:03:59 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (8.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (15.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (7.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (53.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (11.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (24.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (86.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (118.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (128.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (1.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (3.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (143.6ms)
+Completed 200 OK in 172ms (Views: 121.7ms | ActiveRecord: 24.5ms)
+
+
+Started GET "/refinery/pages" for 192.168.1.102 at 2011-07-20 09:04:10 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (21.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (39.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (9.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (88.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (8.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (119.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (217.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (237.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (242.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (1.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (7.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (6.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (266.6ms)
+Completed 200 OK in 277ms (Views: 252.5ms | ActiveRecord: 16.3ms)
+
+
+Started GET "/" for 192.168.1.102 at 2011-07-20 09:04:26 -0700
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (6.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/home.html.erb within layouts/application (80.9ms)
+Completed 200 OK in 146ms (Views: 80.2ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/about/about444444/about44443444" for 127.0.0.1 at 2011-07-20 09:04:29 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"about/about444444/about44443444", "locale"=>:en}
+Completed 404 Not Found in 62ms
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (3.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (82.7ms)
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-07-20 09:04:30 -0700
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (9.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (18.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (156.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (236.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (0.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (7.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (24.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_page.html.erb (275.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_sortable_list.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_sortable_list.html.erb (295.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_records.html.erb (311.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_search.html.erb (0.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/_actions.html.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/admin/_make_sortable.html.erb (0.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_html_tag.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_head.html.erb (0.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_site_bar.html.erb (1.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_menu.html.erb (3.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_no_script.html.erb (0.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_message.html.erb (0.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/admin/_javascripts.html.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/admin/pages/index.html.erb within layouts/admin (324.2ms)
+Completed 200 OK in 350ms (Views: 277.1ms | ActiveRecord: 56.9ms)
+
+
+Started GET "/about/about2222/about2223333" for 127.0.0.1 at 2011-07-20 09:04:34 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"about/about2222/about2223333", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (12.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (98.2ms)
+Completed 200 OK in 173ms (Views: 88.8ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/home/4444" for 127.0.0.1 at 2011-07-20 09:04:36 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/4444", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (4.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (81.2ms)
+Completed 200 OK in 127ms (Views: 79.9ms | ActiveRecord: 67.2ms)
+
+
+Started GET "/home/3333/3333x33333" for 127.0.0.1 at 2011-07-20 09:04:37 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/3333/3333x33333", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (6.6ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (106.4ms)
+Completed 200 OK in 206ms (Views: 101.4ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/home/22222/222x3333/22222x444" for 127.0.0.1 at 2011-07-20 09:04:38 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/22222/222x3333/22222x444", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (5.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (304.5ms)
+Completed 200 OK in 383ms (Views: 303.1ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/home/22222/222x3333" for 127.0.0.1 at 2011-07-20 09:04:39 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/22222/222x3333", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (9.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (115.7ms)
+Completed 200 OK in 206ms (Views: 114.1ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/home/22222" for 127.0.0.1 at 2011-07-20 09:04:40 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/22222", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (9.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (86.9ms)
+Completed 200 OK in 185ms (Views: 83.2ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/about/about2222" for 127.0.0.1 at 2011-07-20 09:04:42 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"about/about2222", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (21.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (237.3ms)
+Completed 200 OK in 342ms (Views: 232.4ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-07-20 09:04:43 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"about", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (10.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (105.4ms)
+Completed 200 OK in 213ms (Views: 104.5ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-20 09:04:44 -0700
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (5.5ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/home.html.erb within layouts/application (99.1ms)
+Completed 200 OK in 198ms (Views: 98.3ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/about/about2222/about2223333" for 192.168.1.102 at 2011-07-20 09:05:00 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"about/about2222/about2223333", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (5.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (73.5ms)
+Completed 200 OK in 130ms (Views: 71.9ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/home/3333/3333x33333" for 192.168.1.102 at 2011-07-20 09:05:06 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/3333/3333x33333", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (5.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (89.0ms)
+Completed 200 OK in 132ms (Views: 87.3ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/home/22222/222x3333" for 192.168.1.102 at 2011-07-20 09:05:13 -0700
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"home/22222/222x3333", "locale"=>:en}
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-core-1.0.3/app/views/shared/_content_page.html.erb (5.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p180@refinerycms_latest/gems/refinerycms-pages-1.0.3/app/views/pages/show.html.erb within layouts/application (187.3ms)
+Completed 200 OK in 231ms (Views: 186.0ms | ActiveRecord: 6.5ms)
